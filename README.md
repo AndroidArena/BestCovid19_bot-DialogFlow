@@ -1,2 +1,2 @@
-# BestCovid19_bot-DialogFlow
-This chatbot developed using Dialoglow,python,flask,MongoDB and deployed on Telegram. search @bestcovid19_bot on telegram app
+# Covid-19-Bot
+Covid-19-Bot in flask and deployed on cloud
