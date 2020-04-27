@@ -9,3 +9,4 @@ BestCovid-19 Bot can give answers of all of your queries related to covid-19 als
 
 
 3). Govt annoucements , videos and Images.
+
