@@ -2,7 +2,7 @@
 This chatbot developed using Dialoglow,python,flask,MongoDB and deployed on Telegram. search @bestcovid19_bot on telegram app
 BestCovid-19 Bot can give answers of all of your queries related to covid-19 also it can -
 
-full Document - https://ppxa-my.sharepoint.com/:w:/g/personal/gac1507_myoffice365_app/EQVwJR-SOsFIrXT6R4vYzt8BlnIgXIXBF3NWFfpCiHSBug?e=VdmVXx
+step wise implementation and Document - https://ppxa-my.sharepoint.com/:w:/g/personal/gac1507_myoffice365_app/EQVwJR-SOsFIrXT6R4vYzt8BlnIgXIXBF3NWFfpCiHSBug?e=VdmVXx
 
 
 1). Show you statisics based on Country,Indian States,Indian districts,Google Maps,WorldWide
