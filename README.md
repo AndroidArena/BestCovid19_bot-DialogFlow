@@ -22,8 +22,24 @@ Step wise implementation and Document - https://ppxa-my.sharepoint.com/:w:/g/per
 
 4). Govt annoucements , videos and Images.
 
-If you like my work kindly hit 🌟
+If you like my work kindly hit 🌟🌟🌟
 
 
-feel free to contact me in case of any problem reachout to me @ 'dineshraturi22@gmail.com' and Add subject-BestCovid Query
+How to Setup the whole system ? 
+1. Setup Pivotal Cloud foundary account and install foundary CLI to your system
+
+
+2. Setup MongoDB Atlas account
+
+
+3. Setup Dialogflow Account
+
+
+4. Download and Install Pycharm or any IDE to open my code.
+
+
+5. use PostMan to test this code locally. localhost:5000/webhook , give header and body as Raw json. (Everything mentioned inside document.)
+
+
+feel free to contact me in case of any problem reachout to me @ 'dineshraturi22@gmail.com' and Add subject-BestCovid Github Query
 
