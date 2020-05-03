@@ -1,3 +1,5 @@
+# As requested by many people over mail or linkedin.I am making stepwise implmentation playist on youtube. Will be Live Soon. Thank You
+
 # End-to-End Covid-19 chatbot using DialogFlow,Python/Flask,MongoDb Atlas and deployed on Pivotal Cloud foundary and Telegram
 This chatbot developed using Dialoglow,python,flask,MongoDB and deployed on Telegram. search @bestcovid19_bot on telegram app
 BestCovid-19 Bot can give answers of all of your queries related to covid-19 also it can -
