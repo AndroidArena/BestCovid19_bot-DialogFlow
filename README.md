@@ -12,7 +12,7 @@ BestCovid-19 Bot can give answers of all of your queries related to covid-19 als
 I have also mentioned how to test it locally on PostMan.
 
 
-Step wise implementation and Document - https://ppxa-my.sharepoint.com/:w:/g/personal/gac1507_myoffice365_app/EQVwJR-SOsFIrXT6R4vYzt8BlnIgXIXBF3NWFfpCiHSBug?e=VdmVXx
+Temporary Down - Step wise implementation and Document - https://ppxa-my.sharepoint.com/:w:/g/personal/gac1507_myoffice365_app/EQVwJR-SOsFIrXT6R4vYzt8BlnIgXIXBF3NWFfpCiHSBug?e=VdmVXx
 
 
 1). Show you statisics based on Country,Indian States,Indian districts,Google Maps,WorldWide
