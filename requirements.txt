@@ -10,7 +10,7 @@ cryptography==2.8
 cycler==0.10.0
 dnspython==1.16.0
 Flask==1.1.1
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 idna==2.9
 itsdangerous==1.1.0
 Jinja2==2.11.1
