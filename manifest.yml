@@ -1,7 +1,7 @@
 
 ---
 applications:
-- name: covid_19_bot
+- name: MionrCovid_19Bot
   memory: 2.0GB
   disk_quota: 2.0GB
   random-route: true

@@ -1,8 +1,4 @@
-# As requested by many people over mail or linkedin.I am making stepwise Implementation playist on youtube. 
-
-Here is the link of stepwise implementation Youtube- https://bit.ly/3c0n0ss
-
-# End-to-End Covid-19 chatbot using DialogFlow,Python/Flask,MongoDb Atlas and deployed on Pivotal Cloud foundary and Telegram
+# End-to-End Covid-19 chatbot using DialogFlow,Python/Flask,MongoDb Atlas and deployed on Heroku and Telegram
 This chatbot developed using Dialoglow,python,flask,MongoDB and deployed on Telegram. search @bestcovid19_bot on telegram app
 BestCovid-19 Bot can give answers of all of your queries related to covid-19 also it can -
 
@@ -27,7 +23,7 @@ If you like my work kindly hit 🌟🌟🌟
 
 
 How to Setup the whole system ? 
-1. Setup Pivotal Cloud foundary account and install foundary CLI to your system
+1. Setup Heroku account 
 
 
 2. Setup MongoDB Atlas account
@@ -42,5 +38,5 @@ How to Setup the whole system ?
 5. use PostMan to test this code locally. localhost:5000/webhook , give header and body as Raw json. (Everything mentioned inside document.)
 
 
-feel free to contact me in case of any problem reachout to me @ 'dineshraturi22@gmail.com' and Add subject-BestCovid Github Query
+feel free to contact me in case of any problem reachout to 'navneetguptaend@gmail .com' and Add subject-BestCovid Github Query
 
