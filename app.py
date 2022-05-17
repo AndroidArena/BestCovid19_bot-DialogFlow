@@ -1,14 +1,17 @@
 # doing necessary imports
 import json
-# import os
+import pymongo
+import requests
 
-from flask import Flask, request, make_response
+from flask import Flask, render_template, request, jsonify, make_response
 from flask_cors import cross_origin
 from pymongo import MongoClient
 
 from DataRequests import MakeApiRequests
 from saveConversation import Conversations
 from sendEmail import EMailClient
+
+import os
 
 app = Flask(__name__)  # initialising the flask app with the name 'app'
 
@@ -28,7 +31,7 @@ def webhook():
 
 # processing the request from dialogflow
 def processRequest(req):
-    # dbConn = pymongo.MongoClient("mongodb://localhost:27017/")  # opening a connection to Mongo
+    dbConn = pymongo.MongoClient("mongodb://localhost:27017/")  # opening a connection to Mongo
     log = Conversations.Log()
     sessionID = req.get('responseId')
     result = req.get("queryResult")
@@ -103,7 +106,7 @@ def processRequest(req):
             fulfillmentText.get('last_update')) + "\n\n*******END********* \n "
         print(webhookresponse)
         log.saveConversations(sessionID, "Cases worldwide", webhookresponse, intent, db)
-        # log.saveCases("world", fulfillmentText, db)
+        log.saveCases("world", fulfillmentText, db)
 
         return {
 
@@ -176,7 +179,7 @@ def processRequest(req):
         print("***Country wide Report*** \n\n" + webhookresponse2 + "\n\n*******END********* \n")
         print("***State wide Report*** \n\n" + webhookresponse3 + "\n\n*******END********* \n")
 
-        log.saveConversations(sessionID, "Indian State Cases", webhookresponse1, intent, db)
+        # log.saveConversations(sessionID, "Indian State Cases", webhookresponse1, intent, db)
         return {
 
             "fulfillmentMessages": [
@@ -224,7 +227,7 @@ def processRequest(req):
 
 def configureDataBase():
     client = MongoClient(
-        "mongodb+srv://username:passwrod@cluster0-replace with you URL.mongodb.net/test?retryWrites=true&w=majority")
+        "mongodb+srv://Covid_19-Bot:Project_1@Minor@cluster0.jvzhh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     return client.get_database('covid19DB')
 
 
@@ -245,9 +248,9 @@ def prepareEmail(contact_list):
     mailclient.sendEmail(contact_list)
 
 
-# if __name__ == '__main__':
-#     port = int(os.getenv('PORT', 5000))
-#     print("Starting app on port %d" % port)
-#     app.run(debug=True, port=5000, host='0.0.0.0')
-if __name__ == "__main__":
-    app.run(port=5000, debug=True)  # running the app on the local machine on port 8000
+if __name__ == '__main__':
+    port = int(os.getenv('PORT'))
+    print("Starting app on port %d" % port)
+    app.run(debug=True, port=5000, host='0.0.0.0')
+# if __name__ == "__main__":
+#     app.run(port=5000, debug=True)  # running the app on the local machine on port 8000
