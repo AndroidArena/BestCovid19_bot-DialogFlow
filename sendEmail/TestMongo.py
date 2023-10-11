@@ -11,5 +11,3 @@ new_chat = {
 
 
 records.remove()
-
-
